@@ -87,7 +87,7 @@ var duck = {
 animals.push(duck)
 
 console.log(animals)
-console.log(animals.length)
+console.log(animals.length - 1)
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
