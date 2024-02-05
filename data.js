@@ -40,7 +40,7 @@ console.log(noises)
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 animal['noises'] = noises;
-animal['noises'] = 'hiss'
+animal['noises'].push('hiss');
 
 console.log('animal')
 
