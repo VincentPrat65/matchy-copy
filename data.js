@@ -13,8 +13,8 @@
 //////////////////////////////////////////////////////////////////////
 var animal = {};
 
-animal.species = 'feline';
-animal['name'] = 'Tiger';
+animal.species = 'Tiger';
+animal['name'] = 'Mr Fluffy';
 animal.noises = []
 
 console.log(animal);
@@ -24,7 +24,16 @@ console.log(animal);
 // Step 2 - Array Creation ///////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////
 
+var noises = []
 
+noises['roar']
+
+noises.unshift('meow')
+noises[noises.push('sneeze')]
+
+console.log(noises.length - 1)
+console.log(noises[noises.length])
+console.log(noises)
 
 //////////////////////////////////////////////////////////////////////
 // Step 3 - Combining Step 1 and 2 ///////////////////////////////////
