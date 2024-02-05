@@ -30,7 +30,7 @@ noises[0] = 'roar'
 
 noises.unshift('meow')
 noises[noises.length] = 'growl'
-noise.push('sneeze')
+noises.push('sneeze')
 
 console.log(noises.length - 1)
 console.log(noises[noises.length])
