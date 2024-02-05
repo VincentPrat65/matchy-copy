@@ -27,7 +27,7 @@ console.log(animal);
 var noises = []
 
 noises['roar']
-noises['Burp']
+
 noises.unshift('meow')
 
 noises[noises.push('sneeze')]
