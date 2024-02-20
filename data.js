@@ -84,6 +84,22 @@ var duck = {
   noises: ['quack', 'honk', 'sneeze', 'woosh']
 }
 
+var elephant = {
+  species: 'elephant',
+  name: 'Edgar',
+  noises: ['honk', 'stomp', 'scream', 'sneeze']
+}
+
+var tiger = {
+  species: 'tiger',
+  name: 'Ron',
+  noises: ['roar', 'hiss', 'pur', 'sneeze']
+}
+
+animals.push(elephant)
+
+animals.push(tiger)
+
 animals.push(duck)
 
 console.log(animals)
