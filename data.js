@@ -115,11 +115,13 @@ function getRandom(array) {
   return Math.floor(Math.random() * array.length)
 }
 
-var randomName = getRandom(friends);
+var randomName = getRandom(animals);
 
 friends.push(randomName);
 
 console.log(friends)
+
+friends['friends']
 
 //I chose an array because it's good at storing multiple variables to be called on if needed.
 
