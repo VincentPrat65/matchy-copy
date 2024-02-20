@@ -70,9 +70,7 @@ console.log('animal')
 
 var animals = []
 
-//////////////////////////////////////////////////////////////////////
-// Step 7 - Making Friends ///////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////
+
 
 animals.push(animal)
 
@@ -104,6 +102,22 @@ animals.push(duck)
 
 console.log(animals)
 console.log(animals.length - 1)
+
+//////////////////////////////////////////////////////////////////////
+// Step 7 - Making Friends ///////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////
+
+var friends = []
+
+
+function getRandom(array) {
+
+  return Math.floor(Math.random() * array.length)
+}
+
+var randomName = getRandom(friends);
+
+//I chose an array because it's good at storing multiple variables to be called on if needed.
 
 /**
  * Nice work! You're done Part 1. Pat yourself on the back and
