@@ -117,6 +117,10 @@ function getRandom(array) {
 
 var randomName = getRandom(friends);
 
+friends.push(randomName);
+
+console.log(friends)
+
 //I chose an array because it's good at storing multiple variables to be called on if needed.
 
 /**
